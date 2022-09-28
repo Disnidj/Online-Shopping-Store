@@ -1,0 +1,203 @@
+<html>
+<head>
+  <title>IMPRESA CLOTHING</title>
+<style>
+		body{
+			background-image: url("../images/back2.jpg");
+			background-color: silver;
+			}
+	</style>
+	
+	  
+  <link rel="stylesheet" href="../css/impre.css">
+  <link rel="stylesheet" href="../css/accweb.css">
+</head>
+<body>
+
+<div style="height:150px" class="head">
+<center>
+	<img  src="../images/download11.jpg" width="160" height="150" align="left" alt="Impresa logo Image">
+
+	<h2><br><font color="#e6be8a">IMPRESA</h2>
+	<h3 id="header">ONLINE FASHION STORE</h3></font>
+</center>
+
+</div>
+
+<ul class="menu">
+		<li ><a href="home.html">Home</a></li>
+		<li><a href="aboutus.html">About us</a></li>
+		<li><a href="contact.html">Contact us</a></li>
+		<li><a href="signup.html">Login</a></li>
+		<li><a href="addToCart.html">Add to cart</a></li>
+		<li ><a href="userprofile.html">User profile</a></li>
+		<li ><a href="Rate.html">Rate Us</a></li>
+		
+	</ul><br/><br/>
+
+<ul class="sidebar" style="height:100%;">
+
+	<li style="margin-top:40px"><a href="Ladies.html">Ladies Collection</a>		
+	<li><a href="Gents.html">Gents Collection</a></li>
+	<li><a href="sports.html">Sports Collection</a></li>
+	<li><a href="saree.html">Saree Collection</a></li>
+	<li><a href="accessories.html">Accessories</a></li>
+	<li><a href="Kids.html">Kids Collection</a></li>
+	<li><a href="delivery.html">Delivery details</a></li>
+    
+</ul>
+
+
+
+
+  <center>
+
+
+
+
+  <img type="button" id="no1" onclick="myfunction('no1')" class="mySlides" src="../images/bag1.jpg"  width="500px" height="500px">
+  <img type="button" id="no2" onclick="myfunction('no2')" class="mySlides" src="../images/bag2.jpg"  width="500px" height="500px">
+  <img type="button" id="no3" onclick="myfunction('no3')" class="mySlides" src="../images/bag3.jpg" width="500px" height="500px">
+  <img type="button" id="no4" onclick="myfunction('no4')" class="mySlides" src="../images/bag4.jpg"width="500px" height="500px">
+  <table>
+  <tr>
+  <td>
+  <button class="button" onclick="plusDivs(-1)">&#10094</button>
+  </td>
+  <td>
+  <button class="button" onclick="plusDivs(1)">&#10095</button>
+  </td>
+  </tr>
+
+  </table>
+    <button  type="button" class="button" name="submit"><a href="payment.html" style="color:white">Buy Now</a></button>
+<br>   
+   <button  type="button" class="button" name="submit"><a href="addToCart.html" style="color:white">Add to cart</a></button>
+  </center>
+  <script>
+  function myfunction(name){
+  
+  if(name==="no1"){
+  alert("item code=00bg1  price=Rs.1750.00");}
+  
+  else if(name==="no2"){
+  alert("item code=00bg2  price=Rs.1450.00");}
+  
+  else if(name==="no3"){
+  alert("item code=00bg3  price=Rs.1210.0");}
+  
+  else if(name==="no4"){
+  alert("item code=00bg4  price=Rs.2340.00");}
+  
+  else{
+  alert("invalid");}
+  
+  }
+  </script>
+  </div>
+  
+  <script>
+  var slideIndex=1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n){
+  showDivs(slideIndex += n);
+  }
+  function showDivs(n){
+  var i;
+  var x=document.getElementsByClassName("mySlides");
+  if (n>x.length){
+  slideIndex=1
+  }
+  if(n<1){
+  slideIndex=x.length
+  }
+  for(i=0; i<x.length;i++)
+  {
+  x[i].style.display="none";
+  }
+  x[slideIndex-1].style.display="block";
+  
+  }
+</script>
+  
+  
+  
+  <div  class="slider">
+ <!--<center><img	class="logo" src="../images/bag1.jpg"  ></center></br></br> -->
+ </div>
+ <br>
+
+<center><h2><b>Click on the image for details</b></h2></center>
+<!--<center><font size="100px"><p id="demo"></p></font></center>-->
+
+
+
+<div style="background-color:#34495E;">
+<P style="white; font-size:17px; color:white;"><b>BRANDS AVAILABLE AT IMPRESA</b></P>
+	
+		<img src="../images/f3.png" width="70" height="50" alt="logo">
+		<img src="../images/f2.png" width="70" height="50" alt="logo">
+		<img src="../images/f1.png" width="70" height="50" alt="logo">
+		<img src="../images/f4.png" width="70" height="50" alt="logo">
+		<img src="../images/f7.png" width="70" height="50" alt="logo">
+		<img src="../images/f6.png" width="70" height="50" alt="logo">
+		<img src="../images/f5.png" width="70" height="50" alt="logo">
+		<img src="../images/f8.png" width="70" height="50" alt="logo">		
+
+</div>
+
+
+<table width="100%" style="color:white;" bgcolor="#34495E">
+	<tr>
+		<td> </td>
+		<td style="width:35%; font-size: 20px;">STAY CONNECTED WITH US</td>
+				
+	</tr>
+	<tr>		
+		<th>WE COLLABORATED WITH AMBITIUOS BRANDS AND PEOPLE;<br/> LET'S BUILD SOMETHING GREAT TOGETHER <br/></th>
+		
+		<th>
+			<img src="../images/facebook.png" width="30" height="30" alt="logo">&nbsp;&nbsp;&nbsp;
+			<img src="../images/instagram.png" width="30" height="30" alt="logo">&nbsp;&nbsp;&nbsp;
+			<img src="../images/twitter.png" width="30" height="30" alt="logo">&nbsp;&nbsp;&nbsp;
+			<img src="../images/googlep.png" width="30" height="30" alt="logo">
+		</th>
+	</tr>		
+
+</table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

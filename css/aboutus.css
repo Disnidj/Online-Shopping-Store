@@ -1,0 +1,25 @@
+body{
+	margin:0;
+	padding:0;
+	background:url(../images/about.jpg);
+	background-position:center;
+	background-size:cover;
+	font-family:sans-serif;
+
+}
+.about{
+	width:450px;
+	height:430px;
+	color:white;
+	background:rgba(80,80,80,0.45);
+	top:68%;
+	left:55%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	margin-top:90px;
+	
+}
+h1{
+	text-shadow:2px 2px black;
+}

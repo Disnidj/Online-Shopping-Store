@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IMPRESA CLOTHING</title>
+
+<style>
+		body{
+			background-image: url("../images/back2.jpg");
+			background-color: silver;
+			}
+	</style>
+  <link rel="stylesheet" href="../css/gents_style.css">
+  <script src="../js/G_img4.js"></script>
+</head>
+<body>
+
+<div style="height:150px; background-color:black; margin-top:-15px;">
+<center>
+	<img  src="../images/imp.jpeg" width="160" height="150" align="left" alt="Impresa logo Image">
+
+	<h2><br><font color="#e6be8a">IMPRESA</h2>
+	<h3 id="header">ONLINE FASHION STORE</h3></font>
+</center>
+</div>
+
+<ul class="menu">
+		<li ><a href="home.html">Home</a></li>
+		<li><a href="aboutus.html">About us</a></li>
+		<li><a href="contact.html">Contact us</a></li>
+		<li><a href="signup.html">Login</a></li>
+		<li><a href="addToCart.html">Add to cart</a></li>
+		<li ><a href="userprofile.html">User profile</a></li>
+		<li ><a href="Rate.html">Rate Us</a></li>
+</ul><br/><br/>
+
+<ul class="sidebar" style="height:536px;">
+
+	<li style="margin-top:40px"><a href="Ladies.html">Ladies Collection</a>		
+	<li><a href="Gents.html">Gents Collection</a></li>
+	<li><a href="sports.html">Sports Collection</a></li>
+	<li><a href="saree.html">Saree Collection</a></li>
+	<li><a href="accessories.html">Accessories</a></li>
+	<li><a href="Kids.html">Kids Collection</a></li>
+	<li><a href="delivery.html">Delivery details</a></li>
+</ul>
+
+<div class="productData table padding" style="margin-left:14%;">
+<table border=0 width="100%">
+<tr>
+<td rowspan=4>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <img src="../images/G7.jpg" width="300" height="330">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="../images/G8.jpg" width="300" height="330">  
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</td>
+<th>MENS SLIM FIT JEANS</th>
+</tr><tr>
+<th><strike>RS 4,300.00</strike>&nbsp&nbsp;RS 3,990.00</th>
+</tr><tr>
+<th>size&nbsp;&nbsp;
+<button class="bsize1" type="button" id="button2" onclick="loadData('button2')">28</button>
+<button class="bsize1" type="button" id="button3" onclick="loadData('button3')">30</button>
+<button class="bsize1" type="button" id="button4" onclick="loadData('button4')">34</button>
+<button class="bsize1" type="button" id="button5" onclick="loadData('button5')">38</button>
+</th>
+</tr><tr>
+<th>color&nbsp;&nbsp;<button class="bcol4" type="button"></button></th></table>
+</div>
+
+
+<div style="margin-left:35%;">
+<button class="button" type="button" id="button1" onclick="loadData('button1')"><a href="#" class="button">VIEW DETAILS</a></button>
+<button class="button" type="button"><a href="payment.html" class="button">BUY NOW</a></button>
+<button class="button" type="button"><a href="addToCart.html" class="button">ADD TO CART</a></button>
+</div>
+
+<center>
+<b><p style="color:white; font-size:20px;" class="text1" id="para"></p></b>
+</center>
+
+
+
+<div style="background-color:#34495E;">
+<P style="white; font-size:17px; color:white;"><b>BRANDS AVAILABLE AT IMPRESA</b></P>
+	
+		<img src="../images/f3.png" width="70" height="50" alt="logo">
+		<img src="../images/f2.png" width="70" height="50" alt="logo">
+		<img src="../images/f1.png" width="70" height="50" alt="logo">
+		<img src="../images/f4.png" width="70" height="50" alt="logo">
+		<img src="../images/f7.png" width="70" height="50" alt="logo">
+		<img src="../images/f6.png" width="70" height="50" alt="logo">
+		<img src="../images/f5.png" width="70" height="50" alt="logo">
+		<img src="../images/f8.png" width="70" height="50" alt="logo">		
+
+</div>
+
+
+<table width="100%" style="color:white;" bgcolor="#34495E">
+	<tr>
+		<td> </td>
+		<td style="width:35%; font-size: 20px;">STAY CONNECTED WITH US</td>
+				
+	</tr>
+	<tr>		
+		<th>WE COLLABORATED WITH AMBITIUOS BRANDS AND PEOPLE;<br/> LET'S BUILD SOMETHING GREAT TOGETHER <br/></th>
+		
+		<th>
+			<img src="../images/facebook.png" width="30" height="30" alt="logo">&nbsp;&nbsp;&nbsp;
+			<img src="../images/instagram.png" width="30" height="30" alt="logo">&nbsp;&nbsp;&nbsp;
+			<img src="../images/twitter.png" width="30" height="30" alt="logo">&nbsp;&nbsp;&nbsp;
+			<img src="../images/googlep.png" width="30" height="30" alt="logo">
+		</th>
+	</tr>		
+
+</table>
+
+
+</body>
+</html>
